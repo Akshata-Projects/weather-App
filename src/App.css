@@ -1,0 +1,47 @@
+.bg-weather
+{
+    background-image: url('https://images.unsplash.com/photo-1565010431002-0c91cad04dd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1428&q=80');
+    height:50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    color:white;
+    font-weight: bold;
+}
+
+.txtSearch
+{
+    width:25%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.weatherSearchBox
+{
+    margin:auto;
+    width:300px;
+    height:300px;
+}
+
+.icon
+{
+    
+    margin-top:2rem;
+    width:100px;
+    height: 100px;
+}
+
+.temp
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.shadow
+{
+    height:20% !important;
+}
